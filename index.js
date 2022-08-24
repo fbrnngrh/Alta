@@ -13,7 +13,7 @@ function getDateTime() {
     let day = date.getDate();
     let month = date.getMonth() + 1;
     let year = date.getFullYear();
-    let hour = date.getHours();
+    let hour = date.getHour();
     let minute = date.getMinutes();
     let second = date.getSeconds();
     return day + "/" + month + "/" + year + " " + hour + ":" + minute + ":" + second;
